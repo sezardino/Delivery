@@ -1,0 +1,26 @@
+.restaurant {
+  padding-top: 56px;
+  padding-bottom: 90px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__cards-list {
+    margin-top: 44px;
+  }
+}
+
+@media(max-width: $tableWidth) {
+  .restaurant {
+    &__header {
+      flex-wrap: wrap;
+    }
+
+    &__input {
+      margin-top: 20px;
+    }
+  }
+}

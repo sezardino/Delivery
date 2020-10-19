@@ -1,0 +1,25 @@
+.header {
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media(max-width: $tableWidth) {
+  .header {
+    flex-wrap: wrap;
+
+    &__logo {
+      order: 1;
+    }
+
+    &__input {
+      margin-top: 25px;
+      order: 3;
+    }
+
+    &__buttons {
+      order: 2;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.title {
+  font-weight: 700;
+  font-size: rem(36px);
+  line-height: 42px;
+  color: $mainFontColor;
+
+  &--hero {
+    font-size: rem(36px);
+    line-height: 46px;
+
+    color: #302C34;
+
+    max-width: 450px;
+  }
+
+  &--restaurant {
+    font-weight: 700;
+  }
+}
+
+.text {
+
+  &--hero {
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #302C34;
+
+    max-width: 538px;
+
+  }
+}
+
+
+@media screen and (max-width: $smDesktopWidth) {
+  .title {
+    &--hero {
+      font-size: 34px;
+      line-height: 40px;
+    }
+  }
+
+  .text {
+    font-size: 20px;
+
+  }
+}
+
+@media(max-width: $tableWidth) {
+  .title {
+    // font-size: 20px;
+  }
+}

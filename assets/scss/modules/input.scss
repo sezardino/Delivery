@@ -1,0 +1,22 @@
+.input {
+  padding-left: 32px;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+
+
+  &--header {
+    @include size(50%, 34px);
+  }
+
+  &--restaurant {
+    @include size(306px, 34px);
+  }
+}
+
+@media(max-width: $tableWidth) {
+  .input {
+    &--header {
+      @include size(100%, 34px);
+    }
+  }
+}

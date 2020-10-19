@@ -1,0 +1,26 @@
+.footer {
+  padding: 60px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media(max-width: $tableWidth) {
+  .footer {
+    flex-wrap: wrap;
+
+    &__logo {
+      order: 1;
+    }
+
+    &__nav {
+      margin-top: 25px;
+      order: 3;
+    }
+
+    &__social {
+      order: 2;
+    }
+  }
+}

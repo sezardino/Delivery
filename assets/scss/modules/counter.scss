@@ -1,0 +1,19 @@
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__button {
+    font-size: 14px;
+    line-height: 22px;
+    color: $button-color;
+    border-color: $button-color;
+  }
+
+  &__count {
+    margin-left: 14px;
+    margin-right: 14px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
